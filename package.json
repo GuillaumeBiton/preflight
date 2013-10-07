@@ -1,0 +1,19 @@
+{
+  "name": "preflight",
+  "version": "0.1.0",
+  "description": "preflight requests middleware",
+  "keywords": [
+    "http",
+    "preflight",
+    "request",
+    "OPTIONS"
+  ],
+  "author": {
+    "name": "Guillaume Biton"
+  },
+  "licence": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GuillaumeBiton/preflight.git"
+  }
+}

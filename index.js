@@ -5,7 +5,7 @@
       var authorization;
       authorization = req.headers.authorization;
       if ((authorization == null) && req.method === "OPTIONS") {
-        return res.send(204);
+        return res.send(200);
       }
       return next();
     };

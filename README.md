@@ -12,7 +12,7 @@ Preflight requests middleware.
     ...
     app.use(preflight());
 
-With this middleware enable after CORS and before authentication, every preflight request will return a 204 http code.
+With this middleware enable after CORS and before authentication, every preflight request will return a 200 http code.
 
 # License
 
